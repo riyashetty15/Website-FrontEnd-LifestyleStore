@@ -1,0 +1,245 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.head{
+        background-color: #ddd;
+    color: black;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.inner-header{
+    width:100%;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color:whitesmoke;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-link{
+    float:right;
+    font-size:14px;
+    height: 50px;
+    padding: 15px;
+    font-size:16px;
+    font-weight: bold;
+}
+#fbutton{
+        float : right;
+            height: 20px;
+}
+
+.content{
+    min-height: 600px;
+}
+
+.banner-image {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("background.jpg");
+    background-size: cover;
+}
+
+.inner-banner-image{
+    padding-top: 12%;
+    width:80%;
+    margin:auto;
+}
+
+.banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+.container{
+    width:50%;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 300px;
+}
+.thumbnail{
+    display: block;
+    padding:4px;
+    margin-bottom:20px;
+    line-height:1.428;
+    background-color:white;
+    border:1px solid black;
+    border-radius:8px;
+    max-width: 80%;
+}
+
+.caption{
+    color:black;
+    padding:0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ddd ;
+}
+
+footer{
+    background-color: #000;
+    color:#fff;
+    font-size:14px;
+}
+
+.button{
+    color: white;
+    background-color: red;
+    border-color: red;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.form-group{
+    margin-bottom:15px;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.butt{
+    color: white;
+    background-color: red;
+    border-color: red;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.butt:hover{
+    opacity:1;
+}
+#ta{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:200px;
+    height:100px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.logo img{
+    width:50px;
+    height:50px;
+    float: left;
+    padding-bottom:5px;
+    margin-right:5px;
+    margin-bottom: 15px;
+    border-radius: 70%;
+}
+* {
+    box-sizing: border-box;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+        display: block;
+    padding: 4px;
+        line-height: 1.42857143;
+            float:left;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.column{
+    float:left;
+    width:33.33%;
+    padding:5px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.bgimg{
+    background-image: url('love.jpeg');
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
